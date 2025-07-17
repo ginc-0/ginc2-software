@@ -1,0 +1,102 @@
+body {
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  background: #f7f9fc;
+  color: #111;
+}
+
+header {
+  background: #002b5b;
+  color: #fff;
+  padding: 1.2rem 0;
+}
+
+.container {
+  width: 90%;
+  max-width: 1100px;
+  margin: auto;
+}
+
+.logo {
+  font-size: 1.8rem;
+  font-weight: 800;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  justify-content: flex-end;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #00c4ff;
+}
+
+.hero {
+  text-align: center;
+  padding: 4rem 1rem;
+  background: linear-gradient(to right, #003973, #005c97);
+  color: white;
+}
+
+.hero h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.hero .btn {
+  background: #00c4ff;
+  color: #003973;
+  padding: 0.8rem 1.5rem;
+  text-decoration: none;
+  border-radius: 25px;
+  font-weight: 600;
+  transition: background 0.3s ease;
+}
+
+.hero .btn:hover {
+  background: #00a6d6;
+}
+
+.services {
+  padding: 3rem 1rem;
+  background: #fff;
+}
+
+.services h3 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 1.5rem;
+}
+
+.card {
+  background: #f1f6fc;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  flex: 1;
+  min-width: 260px;
+  max-width: 300px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+footer {
+  background: #002b5b;
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+}
